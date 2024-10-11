@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images"/>
+    <qresource prefix="/">
+        <file>Pulse.png</file>
+        <file>justSpectra.png</file>
+        <file>Icon24.ico</file>
+        <file>Icon32.ico</file>
+        <file>Icon48.ico</file>
+        <file>Icon64.ico</file>
+        <file>Icon128.ico</file>
+        <file>Icon256.ico</file>
+    </qresource>
+    <qresource prefix="/icons"/>
+    <qresource prefix="/Icons"/>
+    <qresource lang="deutsch" prefix="/Icons"/>
+</RCC>

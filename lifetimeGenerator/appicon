@@ -1,0 +1,1 @@
+app.setWindowIcon(QIcon("://Icon256.ico"));
