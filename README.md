@@ -42,6 +42,7 @@ The **Ideal Spectra Generator** allows you to generate ideal spectra by entering
 ### Generating and Saving Spectra
 
 After setting your desired parameters, click "Start" to generate the spectrum. You can then save the generated spectrum as a `.txt` file by clicking the "Save" button.
+![Bild4](https://github.com/user-attachments/assets/cad115db-9962-41c2-90dc-d85db8bda207)
 
 ## License
 
