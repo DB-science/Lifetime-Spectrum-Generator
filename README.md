@@ -12,8 +12,8 @@ The **Lifetime Spectrum Generator** is a software tool designed to:
 3. After installation, open the software.
 
 Upon opening the software, the following panel will appear:
+![Bild1](https://github.com/user-attachments/assets/ef0123ed-388a-49e7-90af-b9fea0b5d2be)
 
-![Main Panel](Bild1.png)
 
 ## Usage
 
@@ -27,6 +27,7 @@ Click on the respective button to open the corresponding software.
 ### Ideal Spectra Generator
 
 The **Ideal Spectra Generator** allows you to generate ideal spectra by entering the required parameters. It supports up to 5 components with different intensities (as shown in `Bild2.png`).
+![Bild2](https://github.com/user-attachments/assets/8ff14411-d5a8-435f-abad-91507ca8008a)
 
 #### Parameters:
 
