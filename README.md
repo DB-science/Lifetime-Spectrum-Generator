@@ -44,6 +44,28 @@ The **Ideal Spectra Generator** allows you to generate ideal spectra by entering
 After setting your desired parameters, click "Start" to generate the spectrum. You can then save the generated spectrum as a `.txt` file by clicking the "Save" button.
 ![Bild4](https://github.com/user-attachments/assets/cad115db-9962-41c2-90dc-d85db8bda207)
 
+
+# PMT Pulse-Stream Generator
+
+The PMT Pulse-Stream Generator does not directly simulate a lifetime spectrum. Instead, it simulates PMT pulse pairs that contain the information necessary to determine the lifetime.
+
+As shown in Figure 3, the different components of the spectrum can be identified:
+![Bild3](https://github.com/user-attachments/assets/610ff18c-f4ff-4db8-9949-43803e0b9862)
+
+1. **True Coincidence Events**  
+   These events contain the actual lifetime information and make up the majority of a typical spectrum (around 80%). They represent real coincidences between detected events and are the main focus when analyzing the spectrum.
+
+2. **Background Events**  
+   Background events are uncorrelated events that occur due to the intensity of the source. These events are indistinguishable from true coincidence events and form the linear background of the spectrum.
+
+3. **Pile Ups**  
+   Pile ups occur when an additional pulse, caused by another decay, overlaps with a coincidence event. This leads to distorted time signals. The amount of pile ups is primarily influenced by the strength of the radioactive source being used.
+
+4. **1275 keV Backscattering**  
+   These events are caused by 1275 keV gamma quanta that undergo backscattering, interacting with both detectors. This can result in a false coincidence event that does not carry lifetime information.
+
+5. **Bad Coincidence Events**  
+   Bad coincidences occur when both collinear 511 keV gamma quanta, as well as the 1275 keV gamma, are detected. This leads to an amplitude shift of the 1275 keV gamma quantum in the PMT, resulting in a distorted time determination.
 ## License
 
 [Add your preferred license here]
