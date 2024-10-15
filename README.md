@@ -67,24 +67,26 @@ As shown in Figure 3, the different components of the spectrum can be identified
 5. **Bad Coincidence Events**  
    Bad coincidences occur when both collinear 511 keV gamma quanta, as well as the 1275 keV gamma, are detected. This leads to an amplitude shift of the 1275 keV gamma quantum in the PMT, resulting in a distorted time determination.
 
-   # Configuration Settings for PMT Pulse-Stream Generator
+   ## Configuration Settings for PMT Pulse-Stream Generator
 
-## 1275 keV Backscattering Configuration
+### 1275 keV Backscattering Configuration
 In this section, you can define the pulse height distribution of backscattered 1275 keV events within the 511 keV energy range. This distribution is defined using an exponential function. The parameter `Lambda` determines the shape of the exponential distribution, while two additional parameters define the lower and upper limits of the range.
 
-## Digitizer Setup
+### Digitizer Setup
 Here, you can configure the basic properties of the digitizer to be simulated.
 
-## Detector Setup
+### Detector Setup
 In this section, you can define parameters related to the characteristics of the PMT (Photomultiplier Tube) and the scintillator being used. This setup defines the shape and noise behavior of the PMT output pulses.
 
-## Positron Lifetime Configuration
+### Positron Lifetime Configuration
 As with the ideal spectrum generator, this section allows you to define the positron lifetime.
 
-## Number of Pulse Pairs
+### Number of Pulse Pairs
 This setting defines the number of pulse pairs to be generated. It is important to note that this does not correspond directly to the counts in the spectrum, as pulses are generated across the entire PHS (Pulse Height Spectrum) range.
 
-### Important Note
+## Important Note
+Be sure to save the data on an external hard drive, as the generated files can quickly reach sizes in the hundreds of gigabytes.
+
 ## License
 
 [Add your preferred license here]
